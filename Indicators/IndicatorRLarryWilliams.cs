@@ -37,7 +37,7 @@ public sealed class IndicatorRLarryWilliams : Indicator, IWatchlistIndicator
         this.Description = "Uses Stochastic to determine overbought and oversold levels";
 
         // Defines line on demand with particular parameters.
-        this.AddLineSeries("RLW Line", Color.Blue, 1, LineStyle.Solid);
+        this.AddLineSeries("RLW Steps", Color.Blue, 1, LineStyle.Solid);
         this.AddLineLevel(-20, "Upper Limit", Color.Red, 1, LineStyle.Solid);
         this.AddLineLevel(-80, "Lower Limit", Color.Red, 1, LineStyle.Solid);
 
